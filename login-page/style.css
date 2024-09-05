@@ -1,0 +1,70 @@
+form{
+<<<<<<< HEAD
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px auto;
+=======
+    margin: auto;
+>>>>>>> 21cd9f629f5938a77e2a49afb4f0160a41dc7c36
+    border: 1px solid;
+    width: 50%;
+    height: 50vh;
+    /* display: inline; */
+    justify-content: center;
+    align-items: center;
+<<<<<<< HEAD
+    padding: 5%;
+}
+h2{
+    text-align: center;
+=======
+    padding: 2%;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> 21cd9f629f5938a77e2a49afb4f0160a41dc7c36
+}
+label{
+    position: absolute;
+    left: 30%;
+}
+input{
+    padding: 2%;
+    width: 80%;
+    position: relative;
+    left: 8%;
+}
+button{
+    padding: 2%;
+<<<<<<< HEAD
+    width: 20%;
+    background-color: orange;
+=======
+    background-color: gold;
+    cursor: pointer;
+>>>>>>> 21cd9f629f5938a77e2a49afb4f0160a41dc7c36
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: 5%;
+    left: 8%;
+<<<<<<< HEAD
+}
+.error
+{
+    color: red;
+    font-size: small;
+    /* display: block; */
+    width: 80%;
+    position: relative;
+    left: 60px;
+=======
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#showpassword{
+    /* display: none; */
+>>>>>>> 21cd9f629f5938a77e2a49afb4f0160a41dc7c36
+}
