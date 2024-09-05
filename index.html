@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup form validation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- form validation  -->
+    <div class="container">
+        <h1>Register</h1>
+        <form action="" method="post" id="my-form">
+            <div class="input-field-one">
+                <span class="success"></span><br>
+                <label for="FirstName">First Name</label>
+                <input type="text" id="fname">
+                <br>
+                <span class="name-error"></span>
+
+                
+                <br>
+                <label for="MiddleName">Middle Name</label>
+                <input type="text" id="mname" placeholder="Optional">
+                <br>
+                <span class="error2"></span>
+
+                <br>
+                <label for="LastName">Last Name</label>
+                <input type="text" id="lname">
+                <br>
+                <span class="error1"></span>
+
+                <br>
+                <label for="email">Email</label><br>
+                <input type="text" id="email">
+                <br>
+                <span class="email-error"></span>
+                <br>
+            </div>
+            <div class="input-field-two">
+                <label for="gender">Gender</label><br>
+                <input type="radio" name="gender" value="make" id="musculine">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="femanine">
+                <label for="female">Female</label>
+                 <input type="radio" name="gender" value="female" id="other">
+                <label for="other">Other</label> 
+                <br>
+                <span class="gender-error"></span>
+                <br>
+                <label for="phone">Phone No</label><br>
+                <input type="tel" id="phone">
+                <br>
+                <span class="error5"></span>
+                <br>
+                <label for="pasword">Password</label><br>
+                <input type="password" id="pwd" autocomplete="">
+                <br>
+                <span class="error6"></span>
+                <br>
+                <label for="confirm password">Confirm Password</label><br>
+                <input type="password" id="confirm_pwd" autocomplete="">
+                <br>
+                <span class="error7"></span>
+
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid;
+    margin: 5% auto;
+    width: 50%;
+    height: 80vh;
+    padding: 2%;
+}
+input,select{
+    padding: 5px;
+    margin-top: 20px;
+    width: 80%;
+}
+form{
+    padding: 15px;
+    margin-left: 6%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+}
+h1{
+    text-align: center;
+}
+button{
+    padding: 10px;
+    margin-top: 20px;
+    width: 190%;
+    cursor: pointer;
+    border: none;
+    background-color: gold;
+}
+input[type="radio"]{
+    padding: 0px;
+    /* margin-top: 5px; */
+    width: 10%;
+}
+label[for="gender"]{
+    position: relative;
+    margin-top: 300px;
+    top: -12px;
+    /* border: 1px solid; */
+}
+.input-field-two{
+    margin-top: 10px;
+    /* border: 1px solid ; */
+    padding: 25px;
+}
+.name-error,.error1,.gender-error,.email-error,
+.error4,.error5,.error6,.error7,.success
+{
+    color: red;
+    font-size: small;
+}
+
+
+
+
+
+
+
+
+
+
+
